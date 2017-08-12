@@ -1,11 +1,14 @@
 
-
+*{
+  font-family: "宋体";
+}
 html, body {
     height: 100%;
     background-color: #747D93;
     margin: 0 auto;
     padding: 0;
     border: 0;
+    font-family: "宋体";
 }
 
 .wrapper {
@@ -70,6 +73,7 @@ html, body {
 
  .tab
 {
+  font-family: "黑体";
    font-size: 20px;
    color: #032f55;
    margin: 10px;
@@ -158,9 +162,6 @@ hr {
   border-top-color: #ced5db;
 }
 
-/* =============== 
-Font Awesome Icons 
-==================*/
 .fa {
   font-size: 24px;
 }
@@ -249,218 +250,3 @@ Font Awesome Icons
 
 
 
-
-/* ============
-The blog main page boxes 
-=============== */
-.blog-teaser {
-  background-color: #fff;
-  border: 1.5px solid #ddd;
-  margin-bottom: 40px;
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-  .blog-teaser {
-    display: block;
-    float: none;
-    width: 95%;
-  }
-}
-
-.blog-teaser header {
-  text-align: center;
-}
-
-.blog-teaser header img {
-  margin-bottom: 20px;
-  width: 100%;
-  opacity: 0.8;
-}
-
-.blog-teaser header h3 {
-  color: #454a4e;
-  margin-top: 0;
-  font-size: 28px;
-  margin-bottom: 10px;
-}
-
-.blog-teaser header h3 a,
-.blog-teaser header h3 a:focus,
-.blog-teaser header h3 a:hover {
-  color: #454a4e;
-}
-
-.blog-teaser header .meta {
-  color: #5a6065;
-}
-
-.blog-teaser header hr {
-  border-top-color: #ced5db;
-  border-bottom: none;
-}
-
-.blog-teaser .body {
-  padding-right: 25px;
-  padding-left: 25px;
-  margin-bottom: 10px;
-  color: #444;
-}
-
-.blog-teaser .btn {
-  float: right;
-  margin-right: 25px;
-  margin-bottom: 18px;
-}
-
-/* ==============
-Blog main page paging 
-================= */
-
-.paging {
-  margin-bottom: 20px;
-  text-align: right;
-}
-
-.paging a:hover,
-.paging a:focus {
-  color: #222;
-}
-
-.paging i {
-  font-size: 16px;
-}
-
-.paging a,
-.paging span {
-  margin-left: 10px;
-}
-
-.paging .newer i {
-  margin-right: 5px;
-}
-
-
-
-
-/*=============== 
-Buttons used in clean 
-=============== */
-.btn-clean-one {
-  color: #444;
-  border: 1px solid #ddd;
-}
-
-.btn-clean-one:hover,
-.btn-clean-one:focus,
-.btn-clean-one:active,
-.btn-clean-one.active,
-.open .dropdown-toggle.btn-clean-one {
-  color: #000;
-  border-color: #222;
-  background-color: #fff;
-}
-
-.btn-clean-one:active,
-.btn-clean-one.active,
-.open .dropdown-toggle.btn-clean-one {
-  background-image: none;
-}
-
-.btn-clean-one.disabled,
-.btn-clean-one[disabled],
-fieldset[disabled] .btn-clean-one,
-.btn-clean-one.disabled:hover,
-.btn-clean-one[disabled]:hover,
-fieldset[disabled] .btn-clean-one:hover,
-.btn-clean-one.disabled:focus,
-.btn-clean-one[disabled]:focus,
-fieldset[disabled] .btn-clean-one:focus,
-.btn-clean-one.disabled:active,
-.btn-clean-one[disabled]:active,
-fieldset[disabled] .btn-clean-one:active,
-.btn-clean-one.disabled.active,
-.btn-clean-one[disabled].active,
-fieldset[disabled] .btn-clean-one.active {
-  
-}
-
-.btn-clean-one:hover,
-.btn-clean-one:focus {
-  
-}
-
-
-.btn-clean-one .caret {
-  border-top-color: #ffffff;
-}
-
-.btn-clean-two {
-  color: #ffffff;
-  background-color: #485561;
-  border-color: #3c4852;
-  background-image: -webkit-gradient(linear, left 0%, left 100%, from(#485561), to(#2e363e));
-  background-image: -webkit-linear-gradient(top, #485561, 0%, #2e363e, 100%);
-  background-image: -moz-linear-gradient(top, #485561 0%, #2e363e 100%);
-  background-image: linear-gradient(to bottom, #485561 0%, #2e363e 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff485561', endColorstr='#ff2e363e', GradientType=0);
-  background-repeat: repeat-x;
-  border-color: #2a3138;
-}
-
-.btn-clean-two:hover,
-.btn-clean-two:focus,
-.btn-clean-two:active,
-.btn-clean-two.active,
-.open .dropdown-toggle.btn-clean-two {
-  color: #ffffff;
-  background-color: #37404a;
-  border-color: #22292f;
-}
-
-.btn-clean-two:active,
-.btn-clean-two.active,
-.open .dropdown-toggle.btn-clean-two {
-  background-image: none;
-}
-
-.btn-clean-two.disabled,
-.btn-clean-two[disabled],
-fieldset[disabled] .btn-clean-two,
-.btn-clean-two.disabled:hover,
-.btn-clean-two[disabled]:hover,
-fieldset[disabled] .btn-clean-two:hover,
-.btn-clean-two.disabled:focus,
-.btn-clean-two[disabled]:focus,
-fieldset[disabled] .btn-clean-two:focus,
-.btn-clean-two.disabled:active,
-.btn-clean-two[disabled]:active,
-fieldset[disabled] .btn-clean-two:active,
-.btn-clean-two.disabled.active,
-.btn-clean-two[disabled].active,
-fieldset[disabled] .btn-clean-two.active {
-  background-color: #485561;
-  border-color: #3c4852;
-}
-
-.btn-clean-two:hover,
-.btn-clean-two:focus {
-  background-color: #2e363e;
-  background-position: 0 -15px;
-}
-
-.btn-clean-two:active,
-.btn-clean-two.active {
-  background-color: #2e363e;
-  border-color: #2a3138;
-}
-
-.btn-clean-two .caret {
-  border-top-color: #ffffff;
-}
-
-.btn-xlarge {
-  padding: 10px 20px;
-  font-size: 20px;
-  line-height: normal;
-  border-radius: 0px;
-}
